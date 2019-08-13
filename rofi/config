@@ -1,0 +1,38 @@
+#define bg   #32302f
+#define fg   #ebdbb2
+#define blk  #282828
+#define bblk #928374
+#define dred #cc241d
+#define red  #fb4934
+#define dgrn #98971a
+#define grn  #b8bb26
+#define dylw #d79921
+#define ylw  #fabd2f
+#define dblu #458588
+#define blu  #83a598
+#define dmag #b16286
+#define mag  #d3869b
+#define dcyn #689d6a
+#define cyn  #8ec07c
+#define dwht #a89984
+#define wht #ebdbb2
+
+rofi.bw:              2
+rofi.color-enabled:   true
+rofi.columns:         1
+rofi.eh:              1
+rofi.font:            Source Code Pro 12
+rofi.fullscreen:      no
+rofi.hide-scrollbar:  true
+rofi.line-margin:     5
+rofi.lines:           3
+rofi.separator-style: none
+rofi.sidebar-mode:    false
+rofi.terminal:        terminator
+rofi.ssh-client: ssh
+rofi.ssh-command : {terminal} -e "{ssh-client} {host}"
+
+rofi.color-normal: #20002b36, #839496, #20002b36, #40073642, #93a1a1
+rofi.color-urgent: #BF002b36, #BF839496, #BF002b36, #BF073642, #BF93a1a1 
+rofi.color-active: #BF002b36, #BF839496, #BF002b36, #BF073642, #BF93a1a1
+rofi.color-window: #E6002b36, #BF2aa198, #BF2aa198

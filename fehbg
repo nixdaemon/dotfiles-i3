@@ -1,0 +1,2 @@
+#!/bin/sh
+feh --no-fehbg --bg-scale '/home/nepsy/.config/i3/wallpapers/holo-field-windy.jpg' 
