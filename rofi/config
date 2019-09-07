@@ -17,22 +17,23 @@
 #define dwht #a89984
 #define wht #ebdbb2
 
-rofi.bw:              2
-rofi.color-enabled:   true
-rofi.columns:         1
-rofi.eh:              1
-rofi.font:            Source Code Pro 12
-rofi.fullscreen:      no
-rofi.hide-scrollbar:  true
-rofi.line-margin:     5
-rofi.lines:           3
-rofi.separator-style: none
-rofi.sidebar-mode:    false
-rofi.terminal:        terminator
-rofi.ssh-client: ssh
-rofi.ssh-command : {terminal} -e "{ssh-client} {host}"
+#rofi.bw:              0
+#rofi.color-enabled:   true
+#rofi.columns:         1
+#rofi.eh:              1
+#rofi.font:            Source Code Pro 12
+#rofi.fullscreen:      no
+#rofi.hide-scrollbar:  true
+#rofi.line-margin:     5
+#rofi.lines:           6
+#rofi.separator-style: |
+#rofi.sidebar-mode:    false
+#rofi.terminal:        termite
+#rofi.ssh-client: ssh
+#rofi.ssh-command : {terminal} -e "{ssh-client} {host}"
 
-rofi.color-normal: #20002b36, #839496, #20002b36, #40073642, #93a1a1
-rofi.color-urgent: #BF002b36, #BF839496, #BF002b36, #BF073642, #BF93a1a1 
-rofi.color-active: #BF002b36, #BF839496, #BF002b36, #BF073642, #BF93a1a1
-rofi.color-window: #E6002b36, #BF2aa198, #BF2aa198
+#rofi.color-normal: #20002b36, #839496, #20002b36, #40073642, #93a1a1
+#rofi.color-urgent: #BF002b36, #BF839496, #BF002b36, #BF073642, #BF93a1a1 
+#rofi.color-active: #BF002b36, #BF839496, #BF002b36, #BF073642, #BF93a1a1
+#rofi.color-window: #E6002b36, #BF2aa198, #BF2aa198
+rofi.theme: /usr/share/rofi/themes/android_notification.rasi
